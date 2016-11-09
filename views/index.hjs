@@ -6,6 +6,7 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type='text/javascript' src="/javascripts/script.js"></script>
     <script type='text/javascript' src="/javascripts/paper.js"></script>
     <script type='text/paperscript' src="/javascripts/background.js" canvas="squares"></script>
   </head>
@@ -27,7 +28,7 @@
       </ul>
     </div>
     <div class='background' height='1000' width='1000'>
-      <canvas id='squares' resize='true'></canvas>
+      <canvas id='squares' resize='true' height='1000' width='1000'>
     </div>
   </body>
 </html>

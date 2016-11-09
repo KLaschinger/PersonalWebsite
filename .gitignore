@@ -1,3 +1,4 @@
 #Exclusions for the node server
 
 /node_modules/
+npm-debug.log

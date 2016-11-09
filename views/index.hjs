@@ -2,10 +2,32 @@
 <html>
   <head>
     <title>{{ title }}</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type='text/javascript' src="/javascripts/paper.js"></script>
+    <script type='text/paperscript' src="/javascripts/background.js" canvas="squares"></script>
   </head>
   <body>
-    <h1>{{ title }}</h1>
-    <p>Welcome to {{ title }}</p>
+    <div class ='navbar navbar-inverse'>
+      <div class='navbar-header'>
+        <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='#myNavbar'>
+          <span class='icon-bar'></span>
+          <span class='icon-bar'></span>
+          <span class='icon-bar'></span>
+        </button>
+        <a class='navbar-brand' href='#'>Kurt Laschinger</a>
+      </div>
+      <ul class='nav navbar-nav'>
+        <li class='active'><a href='#home'>HOME</a></li>
+        <li><a href='#home'>ABOUT ME</a></li>
+        <li><a href='#home'>PROJECTS</a></li>
+        <li><a href='#home'>CONTACT</a></li>
+      </ul>
+    </div>
+    <div class='background' height='1000' width='1000'>
+      <canvas id='squares' resize='true'></canvas>
+    </div>
   </body>
 </html>

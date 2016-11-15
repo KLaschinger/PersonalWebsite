@@ -1,6 +1,6 @@
 var widthCount, heightCount;
 var squares = [];
-var SQUARE_SIZE = 40;
+var SQUARE_SIZE = 80;
 console.log("Loading");
 initialize();
 

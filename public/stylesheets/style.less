@@ -1,9 +1,24 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
 }
 
 a {
-  color: #00B7FF;
+  color: #000000;
 }
 
 .background {
@@ -14,7 +29,6 @@ a {
 
 .container-fluid {
   padding-top: 100px;
-  z-index: 100;
 }
 
 .footer {
@@ -22,9 +36,9 @@ a {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;
+  padding: 1px;
   background-color: rgb(0, 0, 200);
-  box-shadow: 0px -20px 20px rgb(0, 0, 200);
+  box-shadow: 0px -10px 10px rgb(0, 0, 200);
   color: #FFFFFF;
   text-align: center;
 }
@@ -52,6 +66,18 @@ a {
 
 .text-bold {
   font-weight: bold;
+}
+
+.text-normal {
+  font-weight: normal;
+}
+
+.text-caps {
+  text-transform: capitalize;
+}
+
+.text-para {
+  padding-bottom: 10px;
 }
 
 .text-sm {
@@ -98,9 +124,13 @@ a {
   line-height: 2.0;
 }
 
+.well {
+  box-shadow: 0px 0px 40px rgba(89, 89, 89, 0.8);
+}
+
 #squares {
   height: 100%;
   width: 100%;
   margin-top: 0;
-  position: absolute;
+  position: fixed;
 }

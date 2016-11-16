@@ -29,7 +29,7 @@
         </ul>
       </div>
       <canvas id='squares' resize='true'></canvas>
-      <div id='aboutme' class='container-fluid'>
+      <div id='aboutme' class='container-fluid container-top'>
         <div class='well col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1'>
           <div class='text-lg text-space-lg text-bold text-caps text-line-lg'>
             About me:
@@ -44,13 +44,24 @@
           <div class='text-lg text-space-lg text-bold text-caps text-line-lg'>
             Projects:
           </div>
-          <div class='col-md-10 col-md-offset-1 text-md'>
-            <div class='text-para'>
+          <div class='col-md-8 col-md-offset-2 text-md'>
+            <div class='text-para-md'>
               Throughout my many years expoloring the avenues of Computer Science, I have created several personal and class projects worthy of recognition
             </div>
-            <div class='text-mdlg text-bold text-para'>
-              <div class='text-md text-normal'>
+          </div>
+          <div class='col-md-10 col-md-offset-1 text-para-sm text-mdlg'>
+            <div class='text-para-sm'>
+              <div class='col-md-6 text-left text-caps text-bold'>
+                Sudoku
               </div>
+              <div class='col-md-6 text-right'>
+                Finished
+              </div>
+            </div>
+          </div>
+          <div class='col-md-10 col-md-offset-1 text-para-md'>
+            <div class='text-md text-normal'>
+              In my freshmen year at college, I attended my UBHacking.  This was my first ever hackathon and I had high hopes for my sudoku game that I was going to create.
             </div>
           </div>
         </div>
@@ -61,9 +72,9 @@
             Contact:
           </div>
           <div class='col-md-10 col-md-offset-1 text-md text-para'>
-            Feel free to contact me by email.  Please add your name .  Thanks!
+            Feel free to contact me by email.  Please add your name and why you are contacting me.  Thanks!
           </div>
-          <div class='col-md-8 col-md-offset-2 text-bold text-lg'>
+          <div class='col-md-8 col-md-offset-2 text-bold text-mdlg'>
             <a href="mailto:#"><span class='glyphicon glyphicon-envelope'/>  kurtlasc@gmail.com</a>
           </div>
         </div>
@@ -82,8 +93,8 @@
                 </ul>
               </li>
               <li><div class='horizontal-line'></div></li>
-              <li class='text-mdlg text-line-md text-bold'>All content copyright Kurt Laschinger &copy; 2016</li>
-              <li class='text-mdlg text-line-md text-bold'>All Rights Reserved</li>
+              <li class='text-mdsm text-line-md text-bold'>All content copyright Kurt Laschinger &copy; 2016</li>
+              <li class='text-mdsm text-line-md text-bold'>All Rights Reserved</li>
             </ul>
           </div>
         </div>

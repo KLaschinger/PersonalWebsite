@@ -61,7 +61,73 @@
           </div>
           <div class='col-md-10 col-md-offset-1 text-para-md'>
             <div class='text-md text-normal'>
-              In my freshmen year at college, I attended my UBHacking.  This was my first ever hackathon and I had high hopes for my sudoku game that I was going to create.
+              <div class='text-para-sm'>
+                In my freshmen year at college, I attended UBHacking which was my first ever Hackathon.  For the hackathon, I decided to design a Sudoku game from scratch which would create a random board, allow the player to enter numbers, and check the game at the end.  Unfortunatly, I did not recieve any awards for my game, but I did get a lot of experience and ideas for future Hackathons.
+              </div>
+              <div class='col-md-10 col-md-offset-1 text-centered text-caps'>
+                <a href="https://bitbucket.org/klaschinger/ubhacking2015-sudoku" target="_blank"><span class='glyphicon glyphicon-menu-right'/>  Bitbucket Repository</a>
+              </div>
+            </div>
+          </div>
+          <div class='col-md-10 col-md-offset-1 text-para-sm text-mdlg'>
+            <div class='text-para-sm'>
+              <div class='col-md-6 text-left text-caps text-bold'>
+                CSE 115/116 projects
+              </div>
+              <div class='col-md-6 text-right'>
+                Finished
+              </div>
+            </div>
+          </div>
+          <div class='col-md-10 col-md-offset-1 text-para-md'>
+            <div class='text-md text-normal'>
+              <div class='text-para-sm'>
+                Two of my freshman classes for computer science where CSE 115 and CSE 116.  In each class, I had to do several coding projects written in Java.  For CSE 115, we had to create a game called Keybrick in which the player would learn typing skills by typing a key that would remove an amount of block on the screen based on the amount of connected blocks.  In CSE 116, we had to create a computer game based off of the board game "Master Labyrinth".  The first part was a team project in which I took on the task of creating the GUI engine.  As opposed to what the other teams in the class did by simply using Swing, I took on the task of learning OpenGL to try to expand my coding skills, since at this point I was already proficient in Java. The second part of the project was also a team project, but instead of creating code from scratch, we were given five codebases to pick from.  As a team, we had to discuss the merits of each codebase and implement some final features to the game using the codebase we picked.
+              </div>
+              <div class='col-md-10 col-md-offset-1 text-centered text-caps'>
+                <a href="https://bitbucket.org/klaschinger/cse115-labs" target="_blank"><span class='glyphicon glyphicon-menu-right'/>  Bitbucket Repository for CSE115</a>
+                <a href="https://bitbucket.org/cse116groupproject108/" target="_blank"><span class='glyphicon glyphicon-menu-right'/>  Bitbucket Team for CSE116 Team 2</a>
+              </div>
+            </div>
+          </div>
+          <div class='col-md-10 col-md-offset-1 text-para-sm text-mdlg'>
+            <div class='text-para-sm'>
+              <div class='col-md-6 text-left text-caps text-bold'>
+                ObsidianCraft Plugins
+              </div>
+              <div class='col-md-6 text-right'>
+                Ongoing
+              </div>
+            </div>
+          </div>
+          <div class='col-md-10 col-md-offset-1 text-para-md'>
+            <div class='text-md text-normal'>
+              <div class='text-para-sm'>
+                When I was in High School, a Minecraft server that I played on asked me to be a plugin developer for them.  I graciously accepted so I could further advance my programming skills.  As part of the development team, I had to work with other staff to write Java plugins using the Bukkit API.  The main plugin I worked on was a a general server utilities plugin.  Some of the tasks I was assigned was to improve the inventory saving system, create an in-game time logger, and create a help command plugin.
+              </div>
+              <div class='col-md-10 col-md-offset-1 text-centered text-caps'>
+                <a href="https://bitbucket.org/obsidiancraft/" target="_blank"><span class='glyphicon glyphicon-menu-right'/>  ObsidianCraft Bitbucket Team</a>
+              </div>
+            </div>
+          </div>
+          <div class='col-md-10 col-md-offset-1 text-para-sm text-mdlg'>
+            <div class='text-para-sm'>
+              <div class='col-md-6 text-left text-caps text-bold'>
+                EzAR-Android
+              </div>
+              <div class='col-md-6 text-right'>
+                In Starting Phase
+              </div>
+            </div>
+          </div>
+          <div class='col-md-10 col-md-offset-1 text-para-md'>
+            <div class='text-md text-normal'>
+              <div class='text-para-sm'>
+                For my Sophomore year at UBHacking, I wanted to create an AR app for viewing furniture and how it would look in a room.  At around 3am of that Hackathon, me and my partner realized that there was no way that I would be able to finish this app in 24 hours.  But I did not want to give up on the idea and thought that there would be many other applications to the idea than the simple furniture idea that my and my partner had.  Since there was no library that I could find that would do what I wanted to do, I decided to convert my idea into an Android API that others could use as well.
+              </div>
+              <div class='col-md-10 col-md-offset-1 text-centered text-caps'>
+                <a href="https://github.com/KLaschinger/EzAR-Android" target="_blank"><span class='glyphicon glyphicon-menu-right'/>  GitHub Repository</a>
+              </div>
             </div>
           </div>
         </div>

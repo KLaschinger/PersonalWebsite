@@ -34,8 +34,11 @@
           <div class='text-lg text-space-lg text-bold text-caps text-line-lg'>
             About me:
           </div>
-          <div class='col-md-10 col-md-offset-1 text-md'>
-            I am a Sophomore Computer Science and Electrical Engineering student at the University at Buffalo.
+          <div class='col-md-10 col-md-offset-1 text-md text-para-md'>
+            I am a Sophomore Computer Science and Electrical Engineering student at the University at Buffalo.  My expertise is in Java programming for software, but I am also knowledgeable in C++ and have some Web Development experience in html, css, javascript, and php.  I also enjoy working with both computer hardware and general elecrtical hardware (hence adding Electrical Engineering to my studies).  Starting this September, I began working as System Administrator at UB's PhoneLab.  PhoneLab is an Android test development platform based on the CyanogenMod Android OS created for Google Nexus 6 Phones.  My responsibiities include working with users to upgrade devices, troubleshooting issues that users may face, and working to upgrade the platform.
+          </div>
+          <div class='col-md-10 col-md-offset-1 text-centered text-caps text-mdlg'>
+            <a href="https://drive.google.com/open?id=0B_I7gvgd1VHhbEczQlBLaU9XMGc" target="_blank"><span class='glyphicon glyphicon-menu-right'/>  Resume on Google Docs</a>
           </div>
         </div>
       </div>
